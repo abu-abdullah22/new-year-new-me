@@ -1,6 +1,6 @@
 * {
     font-family: 'Work Sans', sans-serif;
-    margin-top: 0;
+
 }
 
 /* header styles */
@@ -8,11 +8,8 @@
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-color: lightgray;
-    background-size: 2000px;
     width: 100%;
     background-size: 100%;
-    height: 808px;
-    height: 1200px;
 }
 
 
@@ -54,4 +51,44 @@
     width: 494px;
     margin-left: 78px;
 
+}
+
+/* failure section styles */
+
+.failure {
+    display: flex;
+    gap: 80px;
+    margin: 140px 350px 200px 230px;
+}
+
+.failure-info {
+    margin-top: 370px;
+}
+
+.failure-info-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+}
+
+.failure-info-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 416px;
+}
+
+.info-extra {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.failure-image {
+    background-color: rgba(241, 91, 34, 0.20);
+    border-radius: 527.929px;
+    margin-top: 140px;
 }
