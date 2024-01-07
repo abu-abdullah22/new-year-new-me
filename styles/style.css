@@ -1,5 +1,7 @@
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -173,6 +175,12 @@
 /* footer styles */
 .footer {
     background-color: #151414;
+    display: flex;
+}
+
+.footer-left {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .footer-heading {
@@ -182,7 +190,7 @@
 }
 
 .footer-text {
-    padding: 130px 250px;
+    padding: 0px 250px;
 }
 
 .footer-paragraph {
@@ -190,4 +198,35 @@
     font-size: 16px;
     font-weight: 400;
     width: 485px;
+}
+
+.social-link {
+    display: flex;
+    gap: 18px;
+    margin-left: 240px;
+    margin-top: 35px;
+}
+
+.footer-right {
+    margin: 100px
+}
+
+.footer-right h2 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-right input {
+    display: block;
+    width: 300px;
+    background: #151414;
+    padding: 21px 150px 21px 21px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
 }
